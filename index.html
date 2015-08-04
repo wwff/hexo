@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hexo by wwff</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hexo</h1>
+        <p>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
+
+        <p class="view"><a href="https://github.com/wwff/hexo">View the Project on GitHub <small>wwff/hexo</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/wwff/hexo/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/wwff/hexo/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/wwff/hexo">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="css的注意事项" class="anchor" href="#css%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSS的注意事项</h1>
+
+<p>1.模块最好不要混用margin-top和margin-bottom，统一使用margin-top或margin-</p>
+
+<p>bottom，因为相邻的模块同时使用margin-top和margin-bottom会造成边距的重合，</p>
+
+<p>从而带来不必要的麻烦。
+2当不同选择符的样式设置有冲突时.会采用权重高的选择符设置样式（html标签的权</p>
+
+<p>重：1, class：10, id：100， ）；如果css选择符的全中相同，样式会遵循就近原</p>
+
+<p>则即哪个选择符最后定义，就采用这个选择符的样式。
+3.为了保证样式容易被覆盖，提高可维护性，css选择符需保证权重尽可能低。</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/wwff">wwff</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
